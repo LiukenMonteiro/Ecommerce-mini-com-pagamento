@@ -16,7 +16,7 @@ app.use(express.json());
 // Rota Home
 app.get('/', (req, res) => {
     res.sendFile('index.html', {root: 'public'});
-});
+}); 
 
 // Sucess
 app.get('/success', (req, res) => {
